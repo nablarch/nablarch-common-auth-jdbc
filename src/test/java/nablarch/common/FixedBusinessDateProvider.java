@@ -82,7 +82,7 @@ public class FixedBusinessDateProvider implements BusinessDateProvider {
 
     /**
      * 本クラスは固定の業務日付を提供するため、このメソッドを使用して業務日付を設定することはできない。<br>
-     * 固定日付を設定する場合は、{@link #setFixedDate(String)}を使用すること。<br>
+     * 固定日付を設定する場合は、{@link #setFixedDate(Map)}を使用すること。<br>
      *
      * @param segment 区分値
      * @param date 日付
